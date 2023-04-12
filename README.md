@@ -1,6 +1,4 @@
-﻿# CSEKU_SDP_2023_EndlessRunner
-
-Project Title : Endless Runner Desktop Game
+# Project Title : Endless Runner Desktop Game
 ===============================================
 Programming Language: c++
 
