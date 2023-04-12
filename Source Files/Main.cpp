@@ -4,7 +4,7 @@
 using namespace sf;
 
 int main() {
-    RenderWindow window(VideoMode(800,600), "Temple Run");
+    RenderWindow window(VideoMode(800,600), "Endless Runner");
     window.setVerticalSyncEnabled(true);
 
     Event event{};
@@ -15,7 +15,7 @@ int main() {
     CreateObstacle CreateObstacle(player);
 
     Image bg;
-    bg.loadFromFile("D:/OPP/SFML/background.png");
+    bg.loadFromFile("background.png");
     Texture bgTexture;
     bgTexture.loadFromImage(bg, IntRect(0, 0, 800, 600));
     Sprite bgSprite;

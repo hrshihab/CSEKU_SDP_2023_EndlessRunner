@@ -1,4 +1,4 @@
-#include <SFML/Graphics/CircleShape.hpp>
+#include <SFML/Graphics/CircleShape.hpp> 
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Window/Keyboard.hpp>
 #include "Player.h"
@@ -16,7 +16,7 @@ Player::Player() {
     isAlive = true;
     score = 0;
 
-    font.loadFromFile("D:/OPP/SFML/strikefighter.ttf");
+    font.loadFromFile("strikefighter.ttf");
     scoreText.setFont(font);
     scoreText.setPosition(50, 80);
     scoreText.setCharacterSize(24);
@@ -29,7 +29,7 @@ Player::Player() {
     gameOverText.setCharacterSize(40);
     gameOverText.setFillColor(Color::White);
     gameOverText.setString("Game Over !! \n \"SPACE\" to restart!");
-    spritesheet.loadFromFile("D:/OPP/SFML/player.png");
+    spritesheet.loadFromFile("player.png");
 }
 
 void Player::jump(float dt) {

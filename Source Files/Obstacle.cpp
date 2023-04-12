@@ -8,7 +8,7 @@ Obstacle::Obstacle(float speed) {
     self.setOrigin(25, 50);
     self.setFillColor(Color::Red);
 
-    spritesheet.loadFromFile("D:/OPP/SFML/enemies.png");
+    spritesheet.loadFromFile("enemies.png");
 }
 
 void Obstacle::animation() {
