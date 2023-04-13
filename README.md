@@ -28,5 +28,7 @@ Abu Bakkar Siddik (200233)
 
 ------------------------------------------------------------------
 Project Full Description:
+The game was developed using  (Open Graphics Library) is a cross-platform application programming interface (API) for rendering 2D and 3D vector graphics,C++ programming language, and SFML library, which provides a simple and efficient interface for creating 2D games.
+
 
 
